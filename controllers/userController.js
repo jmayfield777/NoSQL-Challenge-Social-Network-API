@@ -76,6 +76,9 @@ module.exports = {
       const user = await User.findOneAndDelete({
         _id: req.params.userId
       })
+      Thought.deleteMany({ _id: {
+        $in: User.thoughts
+      }})
 
       if (!user) {
         return res.status(404).json({ message: 'No user with that Id!' });
