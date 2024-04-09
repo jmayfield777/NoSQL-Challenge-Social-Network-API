@@ -1,15 +1,15 @@
-const { Schema, Types } = require('mongoose');
+const { Schema, model } = require('mongoose');
 
 const userSchema = new Schema(
   {
     username: {
-      type: Schema.Types.String,
+      type: String,
       unique: true,
       trim: true,
       required: true,
     },
     email: {
-      type: Schema.Types.String,
+      type: String,
       unique: true,
       required: true,
       validate: {
