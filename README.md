@@ -4,7 +4,7 @@
 
 This projects serves as the API for a Social Network App that utilizes Express.js, Node.js, and Mongodb. The 'socialnetworkdb' stores all of the users for this mock social media app. CRUD routes (using express HTTP methods GET, POST, PUT, and DELETE) were implemented to allow the insertion, deletion, updating, and viewing of the data on the back end. Further code will be needed to ensure that the client can manipulate the data in a similar way in the UI. 
 
-Walkthrough video - 
+Walkthrough video - https://drive.google.com/file/d/1OuHteWHECk0dVJ7nPhff8OzJxx-Vc6gK/view?usp=sharing
 
 
 ## Table of Contents
