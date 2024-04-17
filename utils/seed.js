@@ -4,53 +4,43 @@ const { User, Thought } = require('../models');
 const users = [
   {
     username: 'Jake',
-    email: 'jake@gmail.com',
-    thoughts: 'A thought one.'
+    email: 'jake@gmail.com'
   },
   {
     username: 'Jane',
-    email: 'jane@gmail.com',
-    thoughts: 'A thought two.'
+    email: 'jane@gmail.com'
   },
   {
     username: 'Tim',
-    email: 'tim@gmail.com',
-    thoughts: 'A thought three.'
+    email: 'tim@gmail.com'
   },
   {
     username: 'Tina',
-    email: 'tina@gmail.com',
-    thoughts: 'A thought four.'
+    email: 'tina@gmail.com'
   },
   {
     username: 'Derek',
-    email: 'derek@gmail.com',
-    thoughts: 'A thought five.'
+    email: 'derek@gmail.com'
   },
   {
     username: 'Donna',
-    email: 'donna@gmail.com',
-    thoughts: 'A thought six.'
+    email: 'donna@gmail.com'
   },
   {
     username: 'Eric',
-    email: 'eric@gmail.com',
-    thoughts: 'A thought seven.'
+    email: 'eric@gmail.com'
   },
   {
     username: 'Eva',
-    email: 'eva@gmail.com',
-    thoughts: 'A thought eight.'
+    email: 'eva@gmail.com'
   },
   {
     username: 'Henry',
-    email: 'henry@gmail.com',
-    thoughts: 'A thought nine.'
+    email: 'henry@gmail.com'
   },
   {
     username: 'Hannah',
-    email: 'hannah@gmail.com',
-    thoughts: 'A thought ten.'
+    email: 'hannah@gmail.com'
   }
 ]
 
